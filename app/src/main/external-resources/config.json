@@ -1,10 +1,10 @@
 {
     "bot": {
-        "token": "${token}",
+        "token": "MTIwMzI5MTk4NTY4Mzk0NzU4MA.GCkEvS.",
         "presence": {
             "status": "online",
             "activity_type": "playing",
-            "activity_text": "Geometry Dash"
+            "activity_text": "Geometry Dash GDPS"
         },
         "enabled_intents": 4619
     },
@@ -28,9 +28,9 @@
         "bot_announcements_channel_ids": [],
         "gd": {
             "client": {
-                "username": "${username}",
-                "password": "${password}",
-                "host": "http://www.boomlings.com/database",
+                "username": "fusion",
+                "password": "",
+                "host": "https://fusion.ncservers.xyz/",
                 "cache_ttl_seconds": 3600,
                 "request_timeout_seconds": 120,
                 "request_limiter": {
@@ -40,10 +40,10 @@
             },
             "events": {
                 "event_loop_interval_seconds": 60,
-                "rates_channel_ids": [],
-                "demons_channel_ids": [],
-                "timely_channel_id": null,
-                "mods_channel_id": null,
+                "rates_channel_ids": [1213313963392114728],
+                "demons_channel_ids": [1213313963392114728],
+                "timely_channel_id": [1213313963392114728],
+                "mods_channel_id": [1213313963392114728],
                 "crosspost": false,
                 "public_random_messages": {
                     "rates": [
